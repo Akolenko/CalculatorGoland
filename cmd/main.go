@@ -5,8 +5,10 @@ import "fmt"
 func main() {
 	var num1, num2 float32
 	var opr string
-	fmt.Print("Введите числа:")
-	fmt.Scan(&num1, &num2)
+	fmt.Print("Введите первое число:")
+	fmt.Scan(&num1)
+	fmt.Print("Введите второе число:")
+	fmt.Scan(&num2)
 	fmt.Print("Введите оператор:")
 	fmt.Scan(&opr)
 	switch opr {
